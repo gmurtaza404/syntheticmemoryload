@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proxy server</title>
+</head>
+<body>
+    <div id="root"> 
+        <p> This page is just an artificial memeory load </p> 
+        <p> for sake of comaparison each div will take same amount of space on disk</p>
+    </div>
+    
+    <div id ="images"> 
+        <img src = "world.topo.bathy.png" />
+    </div>
+
+    <div id = "video">
+        <video width="320" height="240" controls>
+            <source src="Horses_2.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <div id = "text" hidden>
+        <p>&nbsp;</p>
+        <p>junk_text-1.txt</p>
+        <p>&nbsp;</p>
+        <div id="list">
+            <p><iframe src="junk_text-1.txt" frameborder="0" height="400" width="95%"></iframe></p>
+        </div>
+    </div>
+    
+    <div id = "code">
+        <script src = "client.js"> </script>
+    </div>
+</body>
+</html>
